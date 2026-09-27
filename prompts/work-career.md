@@ -84,3 +84,109 @@ Also identify what should not be individualized if it may reflect unclear expect
 ```
 
 **Human check:** discuss consequential or potentially discriminatory feedback with a trusted manager, representative, HR professional, or adviser as appropriate.
+
+## 5. Tailor a truthful résumé summary
+
+**Use when:** a résumé needs to match a role without mirroring claims you cannot prove.
+
+```text
+Draft three résumé summaries tailored to this role.
+
+Job description: [paste]
+My verified experience, skills, and results: [paste]
+Target seniority and location: [details]
+Claims or topics to avoid: [list]
+
+Map the role's priorities to evidence I actually supplied, then write three concise versions with different emphasis. Use role language only where it remains truthful. Mark missing evidence [DO NOT CLAIM] and list keywords that are relevant but unsupported.
+```
+
+**Human check:** verify every statement and keep wording you can explain with concrete examples.
+
+## 6. Build a cover letter from an evidence map
+
+**Use when:** a specific application merits a concise, personal letter.
+
+```text
+Create an evidence map and draft cover letter.
+
+Role and organization: [job description and verified research]
+My relevant examples: [paste]
+Why I am genuinely interested: [details]
+Tone and length: [details]
+
+First map each major role need to one supported example or an honest gap. Then draft a letter with a specific opening, two evidence-led connections, transparent motivation, and a respectful close. Avoid repeating the résumé, flattery, invented culture claims, and generic enthusiasm.
+```
+
+**Human check:** confirm organization facts and replace any sentence that does not sound like you.
+
+## 7. Prepare a promotion case without erasing the team
+
+**Use when:** you need to present sustained impact and readiness for a defined next level.
+
+```text
+Help me structure a promotion case.
+
+Current and target level expectations: [paste]
+Verified work evidence and feedback: [paste]
+Team contributions and dependencies: [details]
+Known gaps or inconsistent evidence: [details]
+
+Map evidence to expectations, separating scope, behavior, outcome, and duration. Represent collaborators fairly and flag work outside my control. Draft a concise case, counterarguments a reviewer may raise, evidence still needed, and a development plan if the case is premature.
+```
+
+**Human check:** compare with the actual promotion policy and seek candid feedback from someone familiar with the process.
+
+## 8. Compare job offers beyond salary
+
+**Use when:** multiple opportunities have different trade-offs and incomplete information.
+
+```text
+Create a decision framework for these job options: [details]
+
+My priorities, constraints, and deal-breakers: [list]
+Compensation components and source documents: [details]
+Role, manager, team, location, flexibility, and growth evidence: [details]
+Unknowns: [list]
+
+Build a comparison with facts, assumptions, questions, downside scenarios, reversibility, and values fit. Normalize time period and currency only from supplied data. Show how different priority weights change the ranking and draft clarification questions.
+
+Do not provide tax, legal, or investment advice or assume stated benefits are guaranteed.
+```
+
+**Human check:** verify terms in writing and consult qualified advisers for consequential contract, tax, immigration, or equity questions.
+
+## 9. Design a first-30-days learning map
+
+**Use when:** joining a role or project and needing context before promising transformation.
+
+```text
+Draft a first-30-days learning map.
+
+Role and known expectations: [details]
+Team, stakeholders, users, and systems: [details]
+Existing commitments and constraints: [details]
+Questions I already have: [list]
+
+Organize goals by relationships, domain, product or process, tools, decision rights, and early delivery. Propose listening meetings, artifacts to inspect, small reversible contributions, weekly reflection questions, and signals that my assumptions are wrong. Avoid a performative plan full of premature changes.
+```
+
+**Human check:** align the plan with your manager and teammates, then revise it as real context appears.
+
+## 10. Prepare a useful one-to-one agenda
+
+**Use when:** a manager-report conversation needs more than status reporting.
+
+```text
+Create a one-to-one agenda from these notes: [paste]
+
+Relationship and current goals: [details]
+Recent wins, friction, workload, and decisions: [details]
+Topics that may be sensitive: [details]
+Time available: [minutes]
+
+Prioritize items for support, decisions, feedback, development, and two-way relationship health. Draft calm questions, identify facts versus interpretations, and suggest follow-ups with owners. Keep routine status suitable for an asynchronous pre-read.
+
+Do not diagnose motives or script a confrontation.
+```
+
+**Human check:** adapt the agenda to the power relationship and use appropriate confidential or formal channels for serious concerns.

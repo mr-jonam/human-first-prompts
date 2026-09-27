@@ -95,3 +95,108 @@ Ask before producing a full rewrite. Distinguish craft observations from taste.
 ```
 
 **Human check:** compare the critique with feedback from at least one real member of the intended audience.
+
+## 5. Turn an idea into a visual concept brief
+
+**Use when:** a designer, illustrator, photographer, or image model needs direction beyond adjectives.
+
+```text
+Create three distinct visual concept briefs for [project].
+
+Audience and purpose: [details]
+Message or feeling: [details]
+Format and placement: [details]
+Brand or world constraints: [details]
+References and what I like about them: [details]
+Elements to avoid: [list]
+
+For each concept, specify central metaphor, composition, hierarchy, palette logic, texture, lighting, typography relationship, and accessibility considerations. Explain how it supports the message. Do not imitate a living artist or reproduce a copyrighted composition; translate references into general qualities.
+```
+
+**Human check:** review originality, cultural context, rights, legibility, and fit in the real format.
+
+## 6. Plan an honest photo edit
+
+**Use when:** an image needs improvement without misleading the audience.
+
+```text
+Propose a non-destructive edit plan for this photograph: [attach or describe]
+
+Intended use and audience: [details]
+Permitted edits: [list]
+Elements that must remain truthful: [details]
+Technical problem to solve: [details]
+
+Describe crop, exposure, color, local adjustments, cleanup, export, and accessibility metadata in a reversible order. Separate technical correction from content alteration. Flag edits that could change journalistic, documentary, product, identity, or body-image meaning, and suggest disclosure where appropriate.
+```
+
+**Human check:** compare against the original at full size and disclose material alterations when context requires it.
+
+## 7. Explore names without pretending availability
+
+**Use when:** a project, product, character, or event needs a memorable working name.
+
+```text
+Generate naming directions for [thing being named].
+
+Purpose, audience, and personality: [details]
+Language and geographic context: [details]
+Desired and forbidden associations: [list]
+Practical constraints: [length, pronunciation, domain pattern]
+
+Create five naming territories and four candidates per territory. Explain meaning, pronunciation, strengths, ambiguity, and likely collision risks. Include descriptive, suggestive, and invented approaches. Do not claim trademark, company, handle, or domain availability.
+```
+
+**Human check:** run linguistic, cultural, trademark, registry, and domain checks with qualified sources before adoption.
+
+## 8. Test a fictional world for consistency
+
+**Use when:** worldbuilding has grown complex enough to create contradictions or convenient rules.
+
+```text
+Audit this fictional world bible or excerpt: [paste]
+
+Genre, tone, and themes: [details]
+Rules that are intentionally mysterious: [list]
+
+Map rules for geography, history, power, technology or magic, institutions, resources, and everyday life. Identify contradictions, unexplained consequences, loopholes, and places where characters behave only to serve the plot. For each issue, suggest multiple repairs with different thematic effects.
+
+Preserve deliberate ambiguity and do not expand lore merely for volume.
+```
+
+**Human check:** choose only changes that strengthen the story readers actually encounter.
+
+## 9. Develop a podcast or video episode
+
+**Use when:** an episode needs a clear listener promise and a producible shape.
+
+```text
+Create an episode treatment.
+
+Series premise and audience: [details]
+Episode question or story: [details]
+Available guests, research, footage, or demonstrations: [details]
+Target duration and production limits: [details]
+
+Return the listener promise, opening hook, segment arc with timing, evidence or interview needs, transitions, visual or sound opportunities, and closing payoff. Add backup routes if a guest or asset fails. Distinguish verified material from research needs.
+```
+
+**Human check:** verify rights, facts, consent, accessibility, and whether the planned material fits the actual runtime.
+
+## 10. Generate constraints that provoke better ideas
+
+**Use when:** unlimited options are causing repetition or paralysis.
+
+```text
+Design a creative constraint deck for [medium and project].
+
+Current direction and repeated habits: [details]
+Skills or materials available: [details]
+Hard limits that cannot change: [details]
+
+Create 20 constraints across structure, viewpoint, material, time, scale, audience, process, and omission. Each should be specific enough to act on, safe, and reversible. Group them as gentle, disruptive, and extreme. Then combine three compatible constraints into five short exercises.
+
+Avoid arbitrary difficulty that adds cost, danger, or exclusion without creative value.
+```
+
+**Human check:** select constraints that open a useful direction and discard those that compromise safety or access.

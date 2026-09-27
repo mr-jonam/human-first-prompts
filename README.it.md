@@ -2,7 +2,7 @@
 
 Una raccolta originale di prompt pratici, indipendenti dal modello e progettati per lasciare **decisione, verifica e responsabilità alle persone**.
 
-[README principale](README.md) · [Sfoglia i prompt](#raccolte) · [Contribuisci](CONTRIBUTING.md) · [Sostieni](#sostieni-il-progetto)
+[README principale](README.md) · [Sfoglia i prompt](#raccolte) · [Adattatori per modello](models/README.md) · [Contribuisci](CONTRIBUTING.md) · [Sostieni](#sostieni-il-progetto)
 
 ## Perché esiste
 
@@ -23,10 +23,15 @@ Ogni prompt segue il modello **CLEAR**:
 - [Lavoro e carriera](prompts/work-career.md)
 - [Comunicazione e decisioni](prompts/communication-decisions.md)
 - [Apprendimento e ricerca](prompts/learning-research.md)
+- [Scrittura e contenuti](prompts/writing-content.md)
+- [Marketing e vendite](prompts/marketing-sales.md)
+- [Business e operazioni](prompts/business-operations.md)
 - [Sviluppo software](prompts/development.md)
 - [QA e testing](prompts/qa-testing.md)
 
-I prompt sono in inglese per essere riutilizzabili da una comunità internazionale. Puoi chiedere al modello di produrre l'output in italiano aggiungendo: `Write the final answer in Italian.`
+Sono disponibili **100 prompt originali: 10 per ciascuna delle 10 raccolte**. I prompt sono in inglese per essere riutilizzabili da una comunità internazionale. Puoi chiedere al modello di produrre l'output in italiano aggiungendo: `Write the final answer in Italian.`
+
+Per ChatGPT, Claude, Gemini, Microsoft Copilot, Perplexity, Grok, Mistral/Le Chat e DeepSeek non servono copie separate dello stesso prompt: scegli il prompt base e aggiungi il relativo [adattatore](models/README.md).
 
 ## Uso responsabile
 

@@ -7,11 +7,11 @@
 **A practical, model-neutral prompt collection that makes assumptions visible, outputs reviewable, and human judgment non-negotiable.**
 
 [![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-7c3aed.svg)](LICENSE)
-[![28 original prompts](https://img.shields.io/badge/prompts-28-0ea5e9.svg)](#browse-the-library)
+[![100 original prompts](https://img.shields.io/badge/prompts-100-0ea5e9.svg)](#browse-the-library)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-22c55e.svg)](CONTRIBUTING.md)
 [![Sponsor](https://img.shields.io/badge/support-the%20project-f97316.svg)](#support-the-project)
 
-[Browse](#browse-the-library) · [Use the canvas](templates/prompt-canvas.md) · [Contribute](CONTRIBUTING.md) · [Italiano](README.it.md)
+[Browse](#browse-the-library) · [Model adapters](models/README.md) · [Use the canvas](templates/prompt-canvas.md) · [Contribute](CONTRIBUTING.md) · [Italiano](README.it.md)
 
 </div>
 
@@ -39,27 +39,31 @@ Each prompt uses a compact briefing pattern you can reuse anywhere:
 
 | Collection | What it helps you do | Prompts |
 |---|---|---:|
-| [Personal life](prompts/personal-life.md) | Plan a week, compare purchases, prepare difficult choices, build habits | 4 |
-| [Creative studio](prompts/creative-studio.md) | Generate concepts, escape clichés, develop stories, critique drafts | 4 |
-| [Work & career](prompts/work-career.md) | Prepare meetings, improve achievements, interview, learn from feedback | 4 |
-| [Communication & decisions](prompts/communication-decisions.md) | Write sensitive messages, map disagreements, decide under uncertainty | 4 |
-| [Learning & research](prompts/learning-research.md) | Build learning paths, interrogate sources, synthesize, test understanding | 4 |
-| [Development](prompts/development.md) | Clarify features, debug, review designs, plan safe changes | 4 |
-| [QA & testing](prompts/qa-testing.md) | Frame risks, improve bug reports, plan exploration, prepare release review | 4 |
+| [Personal life](prompts/personal-life.md) | Plan time, travel, meals, purchases, home issues, privacy, and habits | 10 |
+| [Creative studio](prompts/creative-studio.md) | Develop concepts, images, stories, names, episodes, and critique | 10 |
+| [Work & career](prompts/work-career.md) | Prepare meetings, applications, interviews, growth, offers, and onboarding | 10 |
+| [Communication & decisions](prompts/communication-decisions.md) | Write sensitive messages, feedback, negotiations, summaries, and updates | 10 |
+| [Learning & research](prompts/learning-research.md) | Build learning paths, research questions, source reviews, and recall practice | 10 |
+| [Writing & content](prompts/writing-content.md) | Brief, draft, edit, simplify, teach, present, and localize responsibly | 10 |
+| [Marketing & sales](prompts/marketing-sales.md) | Position, research, publish, reach out, sell, and experiment ethically | 10 |
+| [Business & operations](prompts/business-operations.md) | Improve SOPs, projects, risks, vendors, support, capacity, and reporting | 10 |
+| [Development](prompts/development.md) | Clarify features, debug, review, design contracts, migrate, and document | 10 |
+| [QA & testing](prompts/qa-testing.md) | Frame risks, prepare evidence, plan specialist testing, and report limits | 10 |
 
-**28 prompts, intentionally curated.** The goal is not to collect every possible request; it is to provide sturdy starting points that you can adapt.
+**100 original prompts across 10 focused collections.** Broad enough to be useful, curated enough to remain reviewable.
 
 ## Quick start
 
 1. Choose the prompt closest to your real outcome.
 2. Replace every `[placeholder]`; delete irrelevant instructions.
-3. Paste your source material, run the prompt, then complete the **Human check**.
+3. Optionally append one [model adapter](models/README.md) for ChatGPT, Claude, Gemini, Copilot, Perplexity, Grok, Mistral, or DeepSeek.
+4. Paste your source material, run the prompt, then complete the **Human check**.
 
 For a prompt of your own, start from the [Prompt Canvas](templates/prompt-canvas.md).
 
 ## What makes these prompts different
 
-- **Model-neutral:** designed for modern general-purpose assistants, not one vendor or version.
+- **Model-neutral:** one prompt works across providers; small adapters improve fit without duplicated content.
 - **Reviewable:** outputs have a requested structure, not an unbounded wall of text.
 - **Evidence-aware:** prompts separate supplied facts, inferences, and unknowns.
 - **Human-in-the-loop:** consequential decisions stay with the person accountable for them.
@@ -92,7 +96,7 @@ You can also help for free: **star the repo, share one prompt that worked, or co
 
 ## Research references
 
-The information architecture was informed by the public browsing experiences of [Techpresso AI Academy](https://academy.techpresso.co/prompts), [The Prompt Collection](https://github.com/luongnv89/prompts), [aiprompts.run](https://aiprompts.run/), and [Prompt Collections](https://promptcollections.com/). No prompt text was copied. See [RESEARCH-NOTES.md](RESEARCH-NOTES.md) for the clean-room review.
+The information architecture was informed by the public browsing experiences of [Techpresso AI Academy](https://academy.techpresso.co/prompts), [The Prompt Collection](https://github.com/luongnv89/prompts), [aiprompts.run](https://aiprompts.run/), and [Prompt Collections](https://promptcollections.com/). The provider adapters use current official documentation linked in the [model guide](models/README.md). No prompt text was copied. See [RESEARCH-NOTES.md](RESEARCH-NOTES.md) for the clean-room review.
 
 ## License and provenance
 

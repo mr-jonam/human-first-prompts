@@ -94,3 +94,107 @@ Prefer existing patterns. Do not propose broad refactors unless the requested be
 ```
 
 **Human check:** inspect the actual diff, run the relevant test, and review unrelated working-tree changes before committing.
+
+## 5. Review a change with evidence, not taste
+
+**Use when:** a pull request needs focused review against behavior and project conventions.
+
+```text
+Review this change using only the supplied diff and context.
+
+Requested behavior and acceptance criteria: [paste]
+Relevant architecture and conventions: [details]
+Diff and tests: [paste]
+Known risks: [list]
+
+Identify correctness, security, data integrity, concurrency, compatibility, maintainability, and test risks. For each finding, cite the exact evidence, consequence, and smallest repair. Separate blockers, questions, and optional improvements. Do not report style preferences already handled by tooling or infer unshown code.
+```
+
+**Human check:** inspect the repository context and reproduce important findings before requesting changes.
+
+## 6. Draft an API contract before implementation
+
+**Use when:** consumers and implementers need agreement on behavior and failure modes.
+
+```text
+Draft an API contract for this capability: [description]
+
+Consumers and use cases: [details]
+Data classification and authorization: [details]
+Existing conventions and versioning policy: [details]
+Performance and compatibility constraints: [details]
+
+Specify operations, schemas, validation, authentication, authorization, idempotency, pagination, errors, rate behavior, observability, examples, and backward-compatibility rules. List open decisions and abuse cases. Use placeholders for unknown limits rather than inventing them.
+```
+
+**Human check:** consumers, security, data, and platform owners review the contract and representative examples.
+
+## 7. Plan a reversible database migration
+
+**Use when:** a schema or data change must protect availability and existing consumers.
+
+```text
+Create a migration plan from these verified details: [paste]
+
+Database and version: [details]
+Data size, traffic, and availability needs: [details]
+Current and target schema: [details]
+Application deployment constraints: [details]
+Backup and recovery evidence: [details]
+
+Propose expand/migrate/contract phases, compatibility window, backfill batching, validation queries, monitoring, rollback or forward-fix triggers, ownership, and cleanup. Identify locks, replication, storage, and data-loss risks as questions where evidence is missing.
+```
+
+**Human check:** a database specialist validates commands and tests the plan on production-like data with verified recovery.
+
+## 8. Write a blameless incident review
+
+**Use when:** an outage or failure needs learning grounded in a verified timeline.
+
+```text
+Structure an incident review from these records: [paste]
+
+Impact definition and measurement: [details]
+Timeline sources and time zones: [details]
+System context: [details]
+
+Return impact, detection, verified timeline, response, contributing conditions, safeguards that worked, causal hypotheses with evidence, and actions mapped to owners and verification. Separate proximate trigger from systemic contributors. Identify uncertain or conflicting timestamps.
+
+Do not invent a root cause, blame individuals, or turn every observation into an action item.
+```
+
+**Human check:** responders and system owners validate the timeline, causes, and feasible actions before publication.
+
+## 9. Design a performance experiment
+
+**Use when:** a suspected bottleneck needs measurement before optimization.
+
+```text
+Turn this performance concern into an experiment.
+
+Observed symptom and user impact: [details]
+Environment and workload evidence: [details]
+Current metrics and traces: [details]
+Change candidates: [list]
+Constraints: [details]
+
+Define hypothesis, representative workload, baseline, primary and guardrail metrics, instrumentation, controlled variables, run procedure, acceptance threshold, and rollback. List confounders and how production behavior may differ. Prefer profiling evidence over intuition.
+```
+
+**Human check:** run safely in the correct environment and have owners interpret results before changing production.
+
+## 10. Draft documentation from verified behavior
+
+**Use when:** code and existing docs need to become a usable guide without imaginary features.
+
+```text
+Draft documentation from these sources: [code excerpts, tests, commands, existing docs]
+
+Target reader and task: [details]
+Supported versions and platforms: [details]
+Known limitations: [details]
+
+Produce prerequisites, quick start, conceptual explanation, examples, failure cases, troubleshooting, and references. Cite the source for behavior-sensitive claims and mark anything not demonstrated [VERIFY]. Keep commands copyable but do not claim they were executed.
+```
+
+**Human check:** run every example in a clean supported environment and review with a maintainer and target reader.

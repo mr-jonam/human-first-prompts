@@ -93,3 +93,112 @@ Do not convert missing evidence into a pass. Do not assign sign-off to the AI or
 ```
 
 **Human check:** designated product, engineering, QA, security, operations, and business owners apply their actual policy and accept or reject the remaining risk.
+
+## 5. Prepare a testability review
+
+**Use when:** a design should expose controllability and observability gaps before test execution.
+
+```text
+Facilitate a preliminary testability review for specialist validation.
+
+Feature and architecture evidence: [details]
+States, dependencies, and data: [details]
+Current logs, metrics, flags, and test interfaces: [details]
+Environment constraints: [details]
+
+Map inputs, states, outputs, side effects, clocks, randomness, external dependencies, and failure injection. Identify where behavior cannot be controlled or observed and questions for design owners. Suggest low-cost seams or telemetry improvements, including privacy and security constraints.
+
+Do not claim the system is testable from documentation alone.
+```
+
+**Human check:** QA and engineering specialists inspect the implementation and environment before accepting changes.
+
+## 6. Propose regression scope from change evidence
+
+**Use when:** a change needs risk-informed regression discussion, not an automatically trusted test list.
+
+```text
+Draft a regression-scope proposal.
+
+Change diff or technical summary: [paste]
+User and business flows: [details]
+Dependencies, data, configuration, and deployment path: [details]
+Defect history and existing coverage evidence: [details]
+Time and environment constraints: [details]
+
+Trace changed components to plausible direct, indirect, integration, operational, and rollback impacts. Rank areas using an explicit scale and show evidence. Propose coverage layers, exclusions, and triggers for expanding scope. Mark all inferred dependencies for confirmation.
+```
+
+**Human check:** a tester reviews the actual change graph, product risk, and prior evidence before setting scope.
+
+## 7. Prepare an API testing workshop
+
+**Use when:** an API change needs shared questions across behavior, data, and operations.
+
+```text
+Create a workshop guide for API testing.
+
+Contract and examples: [paste]
+Consumers and workflows: [details]
+Authentication and authorization model: [details]
+Data and operational constraints: [details]
+
+Generate questions across schema validation, boundaries, state transitions, idempotency, concurrency, pagination, errors, permissions, privacy, compatibility, rate behavior, observability, and dependency failure. Map each question to required evidence and an accountable expert. Avoid producing assumed expected results.
+```
+
+**Human check:** API, security, data, operations, and QA specialists turn validated risks into executable tests.
+
+## 8. Prepare an accessibility testing conversation
+
+**Use when:** a team needs to plan accessibility evidence with qualified participation.
+
+```text
+Draft an accessibility test-planning brief.
+
+Product, platforms, and user journeys: [details]
+Target standards and organizational policy: [details]
+Components and assistive-technology support claims: [details]
+Existing audit and user-research evidence: [details]
+
+Map critical journeys to keyboard, focus, semantics, names, states, contrast, resizing, motion, errors, timing, screen-reader, voice, and cognitive-access questions. Separate automated checks, expert manual evaluation, and research with disabled users. List environment and evidence needs.
+
+Do not claim compliance from a checklist or automated tool.
+```
+
+**Human check:** accessibility specialists and disabled users, compensated appropriately, validate behavior and impact.
+
+## 9. Surface non-functional risks before testing
+
+**Use when:** reliability, performance, security, recovery, or compatibility may dominate feature correctness.
+
+```text
+Facilitate a non-functional risk review.
+
+System purpose, users, architecture, and change: [details]
+Service objectives and policies: [details]
+Traffic, data, threat, device, and dependency evidence: [details]
+Incident history: [details]
+
+Identify risk questions for performance, capacity, resilience, recovery, security, privacy, compatibility, accessibility, maintainability, and operability. For each, state potential impact, trigger, evidence needed, specialist owner, and what a credible experiment would need. Do not generate thresholds not provided by owners.
+```
+
+**Human check:** domain specialists select methods, environments, tools, and acceptance criteria.
+
+## 10. Synthesize a test report without declaring quality
+
+**Use when:** executed checks and observations need a transparent report for decision-makers.
+
+```text
+Organize this verified test evidence into a report: [paste]
+
+Scope and build: [details]
+Coverage model and exclusions: [details]
+Environment and data: [details]
+Defect and risk policy: [details]
+
+Return objective, executed scope, evidence links, results, defects, coverage limitations, environment differences, unresolved risks, and recommended next investigations. Distinguish not tested, blocked, failed, and passed. Tie conclusions to dated evidence and preserve contradictory results.
+
+Do not calculate a universal quality score, infer unexecuted coverage, or make the release decision.
+```
+
+**Human check:** a qualified tester verifies the report, while accountable stakeholders decide whether the remaining risk is acceptable.

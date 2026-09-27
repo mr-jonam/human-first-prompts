@@ -17,6 +17,13 @@ The Git commit ID is the primary version identifier. Before the initial commit, 
 - `CONTENT_MANIFEST_SHA256: 93906e2eb06daf979bf4a7f4d33012b6aca7ecb068cd465836e953d7fa440d6c`
 - `LICENSE_SHA256: 9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94`
 
+### 100-prompt expansion
+
+On 2026-09-27, the collection was expanded to 100 clean-room-authored prompts across 10 categories and gained provider adapters based on linked official documentation. For this edition, 27 project files (all tracked or release-ready files except `PROVENANCE.md` and Git metadata) were sorted by repository-relative path. Each lowercase SHA-256 was paired with its path, separated by two spaces; the LF-terminated UTF-8 manifest was then hashed.
+
+- `CONTENT_MANIFEST_SHA256: a6e5474f3b33a84a1764bd294953c25df9cf43e8444d6f269d7bf54248e918e7`
+- `LICENSE_SHA256: 9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94`
+
 No existing user-controlled signing key or public encryption key was configured during preparation. The repository therefore does not claim a cryptographic identity signature or encrypted identity envelope. Add these only with a verified public key and keep all private keys and recovery material outside the repository.
 
 Hashes and signatures establish integrity relative to referenced bytes; they do not prove legal authorship, detect every copy, or replace qualified legal and timestamping services.

@@ -97,3 +97,102 @@ Ask the questions one at a time and wait for my response. Score against an expli
 ```
 
 **Human check:** revisit the original source for any correction; your notes and the model may share the same omission.
+
+## 5. Turn a broad interest into a researchable question
+
+**Use when:** a topic is too wide or vague for useful investigation.
+
+```text
+Help me refine this topic into researchable questions: [topic]
+
+Purpose and audience: [details]
+Time, access, and method constraints: [details]
+What I already believe and why: [details]
+
+Propose questions with defined concepts, population or context, comparison, evidence type, and scope. Explain feasibility, value, bias risks, and what each question cannot establish. Include descriptive, comparative, and exploratory alternatives without pretending they are equivalent.
+```
+
+**Human check:** review the final question with a domain or methods expert before collecting consequential evidence.
+
+## 6. Build a reading plan around disagreements
+
+**Use when:** learning a field requires more than a list of popular books or articles.
+
+```text
+Design a reading plan for [topic].
+
+My current level and goal: [details]
+Time available: [details]
+Sources already known: [list]
+Access or language constraints: [details]
+
+Organize foundational concepts, major schools or disagreements, current reviews, primary sources, and applied examples. For each slot, state selection criteria rather than inventing a citation. If browsing is available, provide verifiable links, dates, and source types. Add reflection questions and stop points for synthesis.
+```
+
+**Human check:** verify every reference in a library catalogue, publisher, DOI registry, or original source.
+
+## 7. Build a concept map with contested links
+
+**Use when:** notes contain many terms but their relationships remain unclear.
+
+```text
+Create a concept map from these notes: [paste]
+
+Learning objective: [details]
+
+List core concepts, concise definitions grounded in the notes, prerequisite links, causal claims, examples, counterexamples, and contested relationships. Mark each link as stated, inferred, or uncertain. Then propose a visual hierarchy and five questions that test the weakest connections.
+
+Do not add domain facts unless clearly labeled as outside knowledge.
+```
+
+**Human check:** compare inferred relationships with authoritative sources or an instructor.
+
+## 8. Create a spaced review plan that tests retrieval
+
+**Use when:** you want durable recall without endlessly rereading.
+
+```text
+Turn this syllabus or note set into a [duration] review plan: [paste]
+
+Assessment or real-world use: [details]
+Available sessions and dates: [details]
+Strong and weak areas: [details]
+
+Schedule short retrieval sessions with interleaving, cumulative review, and application. Generate question types and answer-checking criteria, not just summaries. Adapt intervals to performance and include a recovery plan for missed sessions.
+
+Do not claim an optimal universal schedule or hide topics that remain weak.
+```
+
+**Human check:** grade from original sources and adjust the plan using actual recall, not familiarity.
+
+## 9. Compare competing frameworks fairly
+
+**Use when:** two or more approaches are being discussed as rivals or universal solutions.
+
+```text
+Compare these frameworks using the supplied sources: [frameworks and sources]
+
+Decision or learning context: [details]
+Evaluation criteria: [list]
+
+For each framework, describe purpose, assumptions, mechanisms, evidence base, boundary conditions, strengths, criticisms, and typical misuse. Use the same criteria for all. Identify complementarity, genuine incompatibility, and evidence gaps. Do not select a winner unless the context and criteria support one.
+```
+
+**Human check:** verify contested claims in primary or high-quality review sources and invite a knowledgeable critic.
+
+## 10. Facilitate a study-group session
+
+**Use when:** a group needs active learning rather than serial summaries.
+
+```text
+Create a [minutes]-minute study-group plan.
+
+Material and learning goals: [details]
+Participant level and group size: [details]
+Preparation completed: [details]
+Accessibility or participation needs: [details]
+
+Include an opening retrieval check, rotating explanation, worked example, disagreement or misconception activity, application problem, and closing reflection. Provide facilitator questions, timeboxes, and a method to surface uncertainty without embarrassment.
+```
+
+**Human check:** adapt pacing and participation based on the group, and correct content against the original material.

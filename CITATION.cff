@@ -8,7 +8,7 @@ repository-code: "https://github.com/mr-jonam/human-first-prompts"
 url: "https://github.com/mr-jonam/human-first-prompts"
 license: "CC-BY-4.0"
 date-released: 2026-09-27
-version: 1.0.0
+version: 2.0.0
 keywords:
   - prompts
   - prompt-engineering

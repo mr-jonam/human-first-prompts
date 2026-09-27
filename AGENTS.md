@@ -3,6 +3,7 @@
 - Stack/build: Markdown-only content repository; no build step or dependencies.
 - Entrypoint: `README.md`; Italian overview in `README.it.md`.
 - Prompt library: `prompts/*.md`, grouped by real-life domain.
+- Model-specific guidance: `models/README.md`; base prompts remain provider-neutral.
 - Reusable authoring format: `templates/prompt-canvas.md`.
 - Tests: run the documented PowerShell checks and `git diff --check`.
 - Config: `.github/FUNDING.yml`, issue forms, and pull request template.
