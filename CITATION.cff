@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use or adapt these prompts, please cite the repository and indicate your changes."
+title: "Human-First Prompts"
+type: dataset
+authors:
+  - family-names: "mr-jonam"
+repository-code: "https://github.com/mr-jonam/human-first-prompts"
+url: "https://github.com/mr-jonam/human-first-prompts"
+license: "CC-BY-4.0"
+date-released: 2026-09-27
+version: 1.0.0
+keywords:
+  - prompts
+  - prompt-engineering
+  - human-in-the-loop
+  - artificial-intelligence
+  - quality-assurance
+  - software-testing

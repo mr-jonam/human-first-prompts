@@ -1,0 +1,41 @@
+name: Prompt proposal
+description: Suggest an original prompt or an improvement to an existing one
+title: "[Prompt]: "
+labels: ["prompt proposal"]
+body:
+  - type: input
+    id: outcome
+    attributes:
+      label: Intended outcome
+      description: What should a person be able to do with the result?
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Proposed prompt
+      description: Include placeholders, evidence rules, output shape, and a human check.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: test
+    attributes:
+      label: Test notes
+      description: Which model(s) did you try, and what worked or failed?
+    validations:
+      required: true
+  - type: textarea
+    id: provenance
+    attributes:
+      label: Provenance
+      description: Confirm this is original or list every source and its license.
+    validations:
+      required: true
+  - type: checkboxes
+    id: license
+    attributes:
+      label: Contribution terms
+      options:
+        - label: I have the right to contribute this material under CC BY 4.0.
+          required: true
