@@ -1,0 +1,61 @@
+{
+  "schema": "mr-jonam.discovery-integrity.v1",
+  "project_id": "37eea65c-cf9d-4381-b018-14d69088aba0",
+  "owner_ref": "mr-jonam",
+  "created_at": "2026-11-03T10:31:12.152Z",
+  "record_type": "discovery-navigation-update",
+  "source_commit": "010b08938a36f7fb704e9a841ccab1f6924b3b84",
+  "existing_identity_record": "PROVENANCE.md",
+  "rights_profile": "CC-BY-4.0",
+  "license": {
+    "path": "LICENSE",
+    "sha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+  },
+  "change_scope": "Original README routing, platform questions, CTA artwork, contact/share navigation and component rights review. Includes the two new overview images where listed.",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "c1bc30c4dbcec546446ab5b1d35ecd6b7cb48fc8a65dfeaf979c280ffe67bf89",
+      "representation": "Git blob bytes at source_commit"
+    },
+    {
+      "path": "LICENSE-DECISION.md",
+      "sha256": "aa9a55b3f5d63ff56e3c0143efbb2766b5d694350193499af83e799f0a1aa520",
+      "representation": "Git blob bytes at source_commit"
+    },
+    {
+      "path": "README.it.md",
+      "sha256": "9f342756eb689ed342811886bc59b5077442b477f7d7e8379d689945a1b34411",
+      "representation": "Git blob bytes at source_commit"
+    },
+    {
+      "path": "README.md",
+      "sha256": "9da2e31fe016699b7792f69fa87baca4e9889e5ee5ac3df5df7445e95e5a2b92",
+      "representation": "Git blob bytes at source_commit"
+    },
+    {
+      "path": "assets/cta-discuss-it.svg",
+      "sha256": "3cd3ab4c2da08a5da6d1bcbb79f02d713e45669527355d1d21b91d57c5de372b",
+      "representation": "Git blob bytes at source_commit"
+    },
+    {
+      "path": "assets/cta-discuss.svg",
+      "sha256": "46cdcfcfc618e6fa315cf02a2c904ed11a79eac5945e5474b6a38ae3d9e271ea",
+      "representation": "Git blob bytes at source_commit"
+    },
+    {
+      "path": "assets/cta-qa.svg",
+      "sha256": "232d509df8ac33ba0144717713e292a61ed8c1c8eb39e5b375c8ddea86e07d7c",
+      "representation": "Git blob bytes at source_commit"
+    },
+    {
+      "path": "prompts/qa-testing.md",
+      "sha256": "1aa67165c129e47f02fed4bf0c1e70d50f9367aa163ef3f165e982a088102e99",
+      "representation": "Git blob bytes at source_commit"
+    }
+  ],
+  "manifest_sha256": "3f311cdb24b052e900edf1bca2adcdaf35326665e01ff0ca70a2d8c5705f9e6f",
+  "signing": null,
+  "identity_envelope": null,
+  "limitations": "Unsigned integrity record. Preserves existing project identity and records; not conclusive legal authorship proof, DRM or guaranteed copy detection. No private key or plaintext private identity is included."
+}
