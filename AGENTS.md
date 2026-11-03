@@ -14,6 +14,7 @@
 - Style: model-neutral, practical, concise, and explicit about assumptions and human review.
 - Safety: high-impact outputs are drafts; never present AI output as professional approval.
 - QA/testing: prompts support preparation and analysis, not release sign-off or specialist replacement.
+- QA navigation: README editions and `prompts/qa-testing.md` use original CC BY 4.0 `assets/cta-*.svg`; link optional professional support separately from the unrestricted educational reading journey. AI-assisted QA preparation is distinct from evaluating an AI system.
 
 ## Useful commands
 

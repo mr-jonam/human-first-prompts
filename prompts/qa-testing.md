@@ -2,6 +2,22 @@
 
 These prompts help teams prepare evidence and questions. They do **not** execute tests, certify quality, approve a release, or replace a qualified QA/testing specialist.
 
+## Choose one evidence question
+
+| Your next discussion | Start here | Review before using the draft |
+| --- | --- | --- |
+| A release decision | [Release-readiness evidence review](#4-prepare-a-release-readiness-evidence-review) | Which claims have actual, current evidence? |
+| An API or cross-system handoff | [API testing workshop](#7-prepare-an-api-testing-workshop) | Which behaviour and ownership are confirmed? |
+| Performance or other non-functional concerns | [Non-functional risks](#9-surface-non-functional-risks-before-testing) | Which assumptions need measurement on the real system? |
+
+Use synthetic or approved non-confidential inputs. An AI-generated table is a preparation aid, not evidence that the product was tested. These prompts prepare QA work; evaluating an AI feature's behaviour requires a separate system-specific approach.
+
+For an actual product or platform change, explore [professional QA support](https://github.com/mr-jonam/quality-engineering-360#choose-a-starting-point).
+
+<a href="https://www.linkedin.com/in/manoj-rollo/"><img src="../assets/cta-discuss.svg" width="290" height="60" alt="Discuss your QA challenge on LinkedIn" /></a>
+
+Bring the prompt you used, the decision and its timing, and one uncertainty. Scope and terms are agreed separately; keep confidential evidence out of the initial message.
+
 ## 1. Start a risk-based test conversation
 
 **Use when:** a feature needs an initial risk map before a tester designs the approach.

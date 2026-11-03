@@ -61,6 +61,14 @@ Each prompt uses a compact briefing pattern you can reuse anywhere:
 
 For a prompt of your own, start from the [Prompt Canvas](templates/prompt-canvas.md).
 
+## Using AI for QA and testing?
+
+Start with the [QA & testing collection](prompts/qa-testing.md). Choose one evidence question, provide a synthetic or approved non-confidential scenario, and review the assumptions in the draft. You can leave with a clearer question for a release, API or non-functional review. The prompts do not execute tests or evaluate the AI system itself.
+
+<p><a href="prompts/qa-testing.md"><img src="assets/cta-qa.svg" width="290" height="60" alt="Try a QA preparation prompt" /></a> <a href="https://www.linkedin.com/in/manoj-rollo/"><img src="assets/cta-discuss.svg" width="290" height="60" alt="Discuss your QA challenge on LinkedIn" /></a></p>
+
+If a real **SAP, ServiceNow, Salesforce, Dynamics 365, web-platform or AI** change needs evidence, explore [Quality Engineering 360: professional support options](https://github.com/mr-jonam/quality-engineering-360#choose-a-starting-point). Mention the prompt, the decision ahead and the uncertainty requiring specialist review. Scope, delivery and commercial terms are agreed separately.
+
 ## What makes these prompts different
 
 - **Model-neutral:** one prompt works across providers; small adapters improve fit without duplicated content.

@@ -33,6 +33,14 @@ Sono disponibili **100 prompt originali: 10 per ciascuna delle 10 raccolte**. I 
 
 Per ChatGPT, Claude, Gemini, Microsoft Copilot, Perplexity, Grok, Mistral/Le Chat e DeepSeek non servono copie separate dello stesso prompt: scegli il prompt base e aggiungi il relativo [adattatore](models/README.md).
 
+## Usi l'AI per QA e testing?
+
+Parti dalla [raccolta QA e testing](prompts/qa-testing.md), scegli una domanda sulle evidenze e usa uno scenario sintetico o approvato e non riservato. Verifica le ipotesi della bozza: il risultato utile è una domanda più chiara per il confronto su rilascio, API o requisiti non funzionali. I prompt non eseguono test e non valutano il sistema AI stesso.
+
+<p><a href="prompts/qa-testing.md"><img src="assets/cta-qa.svg" width="290" height="60" alt="Prova un prompt per preparare il confronto QA" /></a> <a href="https://www.linkedin.com/in/manoj-rollo/"><img src="assets/cta-discuss-it.svg" width="290" height="60" alt="Parliamo della tua sfida QA su LinkedIn" /></a></p>
+
+Se un cambiamento reale su **SAP, ServiceNow, Salesforce, Dynamics 365, piattaforme web o AI** richiede evidenze, esplora [Quality Engineering 360: opzioni di supporto professionale](https://github.com/mr-jonam/quality-engineering-360/blob/main/README.it.md#scegliere-da-dove-partire). Indica il prompt, la decisione e il dubbio che richiede revisione specialistica. Perimetro, attività e condizioni commerciali si concordano separatamente.
+
 ## Uso responsabile
 
 L'output dell'AI è una bozza. Verifica nomi, date, calcoli, citazioni, ipotesi e conseguenze. Per salute, diritto, finanza, sicurezza, accessibilità, selezione del personale e conformità serve il confronto con un professionista qualificato.

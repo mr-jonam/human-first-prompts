@@ -37,3 +37,11 @@ Contributors must have the right to submit their material under CC BY 4.0. Compa
 - No eIDAS qualified timestamp or legal ownership opinion has been obtained. Use qualified legal advice and, if needed, qualified electronic timestamping for evidentiary requirements.
 
 This record documents a project choice and is not legal advice.
+
+## Discovery and navigation review — 2026-11-03
+
+New original English/Italian QA navigation, QA collection introduction and three original static SVG CTA images are non-software text/media under the existing CC-BY-4.0 licence. LICENSE and NOTICE remain authoritative. No prompt text is imported or relicensed, and the 100-prompt collection and its reuse rights are preserved. System fonts are referenced, not distributed.
+
+External resources are linked, not copied. New wording describes reading outputs and objectives to scope, not guaranteed improvements, measured outcomes, vendor endorsement or new credentials. No customer data, confidential method, private repository link, paid service, analytics, funding change, workflow, release or deployment is introduced. Existing funding decisions are preserved.
+
+This is a scoped component and publication review, not an independent ownership determination. Existing provenance is preserved; an additive unsigned integrity record identifies the changed files. No signing key or encryption recipient was supplied, and no key or identity envelope is created.
